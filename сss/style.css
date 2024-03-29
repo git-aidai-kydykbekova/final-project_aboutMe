@@ -10,21 +10,35 @@ header {
 #about-me-details-info {
   background-color: #34a2d147;
   display: flex;
-  margin-right: 100px;
-  margin-left: 300px;
-  margin-top: 70px;
+  margin-right: 200px;
+  margin-left: 200px;
+  margin-top:80px;
   margin-bottom: 40px;
-  padding: 100px;
+  padding: 10px;
+  border-radius: 40px;
+}
+#about_me1 {
+  background-color: #34a2d147;
+  display: flex;
+  margin-right: 200px;
+  margin-left: 200px;
+  margin-top:10px;
+  margin-bottom: 40px;
+  padding: 10px;
   border-radius: 40px;
 }
 #background {
     color : green;
 }
+#gallery_t{
+  font-size:20px;
+  position: static;
+}
 
 
 img {
-    width: 60px;
-    height: 100px;
+    width: 600px;
+    height: 500px;
     object-fit: contain;
 }
 /* CSS styling for header */
@@ -54,11 +68,7 @@ a {
     font-size: 18px;
     font-family: Lora;
 }
-*{
-  /* margin: 0;
-  padding: 0; */
-  box-sizing: border-box;
-}
+
 html {
   height: 100%;
 }
@@ -137,12 +147,11 @@ div {
 #portfolio {
   font-style: italic;
   font-size: 20px;
-  /* color: white; */
 }
 
 .gallery  {
   text-align: center;
-  font-size: 30px;
+  font-size: 60px;
   font-family: lato;
   text-transform: uppercase;
   }
@@ -162,8 +171,7 @@ div {
   transition: .9s;
   }
   
-  
-/* Reset some default styles */
+
 body, ul {
   margin: 0;
   padding: 0;
